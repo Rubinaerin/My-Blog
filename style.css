@@ -1,0 +1,55 @@
+/* Temel genel stiller */
+
+body {
+    font-family:italic;
+    line-height: 2;
+    color: palevioletred;
+  }
+  
+  /* Başlık */
+  header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  /* Navigasyon */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: pink;
+  }
+  
+  /* Ana bölüm */
+  main {
+    padding: 20px;
+  }
+  
+  .featured-posts article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  .featured-posts a {
+    text-decoration: none;
+    color: lightblue;
+  }
+  
+  .featured-posts a:hover {
+    text-decoration: underline;
+  }
+  
+  
